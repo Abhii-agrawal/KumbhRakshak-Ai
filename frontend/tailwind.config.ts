@@ -53,7 +53,7 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// CrowdShield Custom Colors
+				// KumbhRakshak AI Custom Colors
 				crowd: {
 					bg: 'hsl(var(--crowd-bg))',
 					surface: 'hsl(var(--crowd-surface))',

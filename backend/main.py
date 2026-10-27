@@ -343,8 +343,6 @@ async def health_check():
 
 # Mount frontend dist build if present, or provide API landing message
 frontend_dist = os.path.join(os.path.dirname(CURRENT_DIR), "frontend", "dist")
-if not os.path.exists(frontend_dist):
-    frontend_dist = os.path.join(os.path.dirname(CURRENT_DIR), "CrowdShield--AI-Based-Crowd-and-Disaster-Management", "frontend", "dist")
 
 if os.path.exists(frontend_dist):
     app.mount("/", StaticFiles(directory=frontend_dist, html=True), name="frontend")

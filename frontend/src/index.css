@@ -37,7 +37,7 @@
   border: none !important;
 }
 
-/* CrowdShield Design System - Dark Theme Dashboard */
+/* KumbhRakshak AI Design System - Dark Theme Dashboard */
 @layer base {
   :root {
     color-scheme: dark;
@@ -85,7 +85,7 @@
     --ring: 212.7 26.8% 83.9%;
   }
 
-  /* CrowdShield Dark Theme System */
+  /* KumbhRakshak AI Dark Theme System */
   :root {
     /* Core Background Colors */
     --crowd-bg: 220 13% 4%;          /* Deep dark background #0A0A0B */

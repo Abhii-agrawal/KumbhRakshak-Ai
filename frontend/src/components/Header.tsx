@@ -46,7 +46,7 @@ export const Header: React.FC = () => {
         <div className="flex items-center space-x-3">
           <Shield className="w-8 h-8 text-crowd-electric" />
           <h1 className="text-2xl font-bold text-gradient-electric">
-            CrowdShield
+            KumbhRakshak AI
           </h1>
         </div>
       </div>

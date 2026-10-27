@@ -1,7 +1,0 @@
-sector_id,sector_name,latitude,longitude,max_capacity,current_crowd,fever_cases,dehydration_cases,water_bod_mg_l,risk_status
-SEC_01,Sangam Nose (Main Bathing Ghat),25.4281,81.8847,5000,4250,14,32,2.8,CRITICAL
-SEC_02,Pontoon Bridge 3 (Choke Point),25.4310,81.8812,1200,1050,5,12,2.4,HIGH
-SEC_03,Akhara Sector 4 Tent City,25.4240,81.8905,8000,3400,28,18,2.1,MODERATE_BIO_ALERT
-SEC_04,Subedarganj Holding Area,25.4360,81.8750,10000,3800,6,9,1.9,SAFE
-SEC_05,Central Mela Hospital Hub,25.4295,81.8830,1500,520,42,55,2.0,MEDICAL_HUB
-SEC_06,Arail Ghat Sector,25.4190,81.8790,4000,2800,8,21,2.6,WARNING

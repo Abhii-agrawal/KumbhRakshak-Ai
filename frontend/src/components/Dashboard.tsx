@@ -66,7 +66,7 @@ export const Dashboard: React.FC = () => {
 
     socket.onopen = () => {
       setWsConnected(true);
-      toast.success('✅ Connected to CrowdShield monitoring system', { position: 'top-right', theme: 'dark' });
+      toast.success('✅ Connected to KumbhRakshak AI monitoring system', { position: 'top-right', theme: 'dark' });
     };
 
     socket.onmessage = (event) => {
@@ -95,7 +95,7 @@ export const Dashboard: React.FC = () => {
 
     socket.onclose = () => {
       setWsConnected(false);
-      toast.info("🔌 Disconnected from CrowdShield", { theme: "dark" });
+      toast.info("🔌 Disconnected from KumbhRakshak AI", { theme: "dark" });
     };
 
     return () => socket.close();
